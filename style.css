@@ -227,33 +227,43 @@ content .des{
   background-color: #0c0c0c;
   color:white;
 }
-.search-field{
-  height: 40px;
-  width:25%;
-  border-radius: 10px;
-  outline: none;
-  background-color:#fff;
-  color: #000;
-  box-shadow: 1px 1px 1px 1px #000;
-  border: none
+
+ /*Search box*/
+ .search{
+  margin:auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  position: relative;
+  width: 500px;
+  height: 50px;
+  border: 4px solid #000;
+  padding: 0px 10px;
+  border-radius: 50px;
 }
-.search-btn{
-  height:40px;
-  width:10%;
-  background-color: #ffeb3b;
+.search .elementsContainer{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.search .form-control{
+  
+  height: 90%;
+  width: 100%;
+  padding: 0px 5px;
+  border-radius: 50px;
+  font-size: 15px;
+  color: darkblue;
+  font-weight: 500;
   border: none;
+}
+.search .form-control:focus{
+  outline: none;
+}
+.search .fas fa-search{
+  font-size: 25;
   color: #000;
-  border-radius: 20px
 }
-.search-btn:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  background-color: #ffc107;
-  cursor: pointer;
-}
-.search{
-  background: rgba(0,0,0,0.5);
-  padding: 30px;
-}
+
 .project{
   background-color: black;
 }
