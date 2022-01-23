@@ -93,18 +93,36 @@ ul li a:hover{
 
 .domain h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
   text-align: center;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #fff;
+  font-size: 79px;
+    color: #07fffb;
+    font-family: Lucida Console;
+    text-shadow: 0px 0px 0 rgb(-16,232,228),
+                 1px 1px 0 rgb(-39,209,205),
+                 2px 2px 0 rgb(-63,185,181),
+                 3px 3px 0 rgb(-86,162,158),
+                 4px 4px 0 rgb(-109,139,135),
+                 5px 5px 0 rgb(-132,116,112),
+                 6px 6px 0 rgb(-155,93,89),
+                 7px 7px 0 rgb(-178,70,66),
+                 8px 8px 0 rgb(-202,46,42),
+                 9px 9px 0 rgb(-225,23,19),
+                 10px 10px 0 rgb(-248,0,0),
+                 11px 11px  0 rgb(-271,-23,0),
+                 12px 12px 11px rgba(0,0,0,1),
+                 12px 12px 1px rgba(0,0,0,0.5),
+                 0px 0px 11px rgba(0,0,0,.2);
+  
  
 }
+
 .domain p {
   color: #eee;
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 27px;
   text-align: center;
 }
 .domain .btn-get-started {
@@ -116,18 +134,21 @@ ul li a:hover{
   display: inline-block;
   padding: 10px 28px;
   transition: 0.5s;
-  border: 2px solid #fff;
+  border: 2px solid #cc1616;
+  background: #cc1616;
   color: #fff;
  text-align: center;
 }
-.domain .btn-get-started:hover {
-  background: #cc1616;
-  border-color: #cc1616;
+.scrollto:hover{
+  border-width: 5px;
 }
+
 .button{
   display: flex;
   justify-content: center;
 }
+
+
 @media (min-width: 1024px) {
   #domain {
     background-attachment: fixed;
