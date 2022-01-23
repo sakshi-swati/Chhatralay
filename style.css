@@ -14,7 +14,7 @@ header{
 }
 header:before {
   content: "";
-  background: rgba(0, 0, 0, 0.3);
+  
   position: absolute;
   bottom: 0;
   top: 0;
@@ -37,6 +37,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .navbar{
   width: 100%;
   display: flex;
+  justify-content:space-around;
 
   
    
@@ -54,9 +55,7 @@ nav ul li a{
   float: right;
   text-decoration: none;
   color:rgb(0, 0, 0);
-  opacity: 0.5;
-  font-weight: bold;
-  padding:5px 40px;
+  padding:5px 20px;
   font-size: 18px;
   transition: 0.6s ease;
 }
@@ -85,7 +84,8 @@ ul li a:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  
+  background: rgba(0, 0, 0, 0.3);
+  padding:20px 20px;
   
  
  
@@ -96,27 +96,11 @@ ul li a:hover{
   text-align: center;
   font-weight: 700;
   line-height: 56px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
   font-size: 79px;
-    color: #07fffb;
-    font-family: Lucida Console;
-    text-shadow: 0px 0px 0 rgb(-16,232,228),
-                 1px 1px 0 rgb(-39,209,205),
-                 2px 2px 0 rgb(-63,185,181),
-                 3px 3px 0 rgb(-86,162,158),
-                 4px 4px 0 rgb(-109,139,135),
-                 5px 5px 0 rgb(-132,116,112),
-                 6px 6px 0 rgb(-155,93,89),
-                 7px 7px 0 rgb(-178,70,66),
-                 8px 8px 0 rgb(-202,46,42),
-                 9px 9px 0 rgb(-225,23,19),
-                 10px 10px 0 rgb(-248,0,0),
-                 11px 11px  0 rgb(-271,-23,0),
-                 12px 12px 11px rgba(0,0,0,1),
-                 12px 12px 1px rgba(0,0,0,0.5),
-                 0px 0px 11px rgba(0,0,0,.2);
-  
- 
+  color:aqua;
+  text-shadow:7px 8.7px 12.0px #29dad1 ;
 }
 
 .domain p {
@@ -124,6 +108,7 @@ ul li a:hover{
   margin-bottom: 30px;
   font-size: 27px;
   text-align: center;
+ 
 }
 .domain .btn-get-started {
   font-family: "Raleway", sans-serif;
@@ -172,38 +157,8 @@ ul li a:hover{
   }
 }
 
-.title{
-  font-family: 'Secular One', sans-serif;
-  font-size: 8rem;
-  color: #f6f6f6;
-  
-  padding: 10px;
-  
-}
-
-.tag{
-   text-align: center;
-   font-size: 3rem;
-   color: #b2ebf2;
-   font-family: 'Righteous', cursive;
-}
 
 
-/* Button*/
-.btn{
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 25%;
-  height: 3rem;
-  box-shadow: 1px 1px 3px 3px #000;
-  border-radius: 5px;
-  transition: 0.6s ease;
-}
-.btn:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  background-color:#ed1250;
-}
 
 /*Content*/
 .hello{
@@ -221,13 +176,16 @@ content .des{
 
 .content{ 
   text-align: center;
+  
 }
 .data{
   font-size: 25px;
   background-color: #0c0c0c;
   color:white;
+  overflow: hidden;
 }
 
+<<<<<<< HEAD
  /*Search box*/
  .search{
   margin:auto;
@@ -239,6 +197,34 @@ content .des{
   border: 4px solid #000;
   padding: 0px 10px;
   border-radius: 50px;
+=======
+/* Button*/
+.btn{
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 25%;
+  height: 3rem;
+  box-shadow: 1px 1px 3px 3px #000;
+  border-radius: 5px;
+  transition: 0.6s ease;
+}
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:#ed1250;
+}
+
+
+.search-field{
+  height: 40px;
+  width:25%;
+  border-radius: 10px;
+  outline: none;
+  background-color:#fff;
+  color: #000;
+  box-shadow: 1px 1px 1px 1px #000;
+  border: none
+>>>>>>> 4b7606a6eb5f96b418e436212ebf6950bbbf9fba
 }
 .search .elementsContainer{
   width: 100%;
