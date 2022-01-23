@@ -96,11 +96,13 @@ ul li a:hover{
   letter-spacing: 2px;
 }
 
-.content{
+.content{ 
   text-align: center;
 }
 .data{
-  font-size: 30px;
+  font-size: 25px;
+  background-color: #0c0c0c;
+  color:white;
 }
 .search-field{
   height: 40px;
