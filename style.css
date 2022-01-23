@@ -157,129 +157,6 @@ ul li a:hover{
   }
 }
 
-
-
-
-/*Content*/
-.hello{
-  color: #12baed;
-  margin-bottom: 20px !important;
-  font-size: 45px;
-  letter-spacing: 2px;
-  text-shadow: 0 0 20px #12baed;
-  font-family: 'Righteous', cursive;
-}
-
-content .des{
-  color:white;
-}
-
-.content{ 
-  text-align: center;
-  
-}
-.data{
-  font-size: 25px;
-  background-color: #0c0c0c;
-  color:white;
-  overflow: hidden;
-}
-
-<<<<<<< HEAD
- /*Search box*/
- .search{
-  margin:auto;
-  margin-top: 4%;
-  margin-bottom: 4%;
-  position: relative;
-  width: 500px;
-  height: 50px;
-  border: 4px solid #000;
-  padding: 0px 10px;
-  border-radius: 50px;
-=======
-/* Button*/
-.btn{
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 25%;
-  height: 3rem;
-  box-shadow: 1px 1px 3px 3px #000;
-  border-radius: 5px;
-  transition: 0.6s ease;
-}
-.btn:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  background-color:#ed1250;
-}
-
-
-.search-field{
-  height: 40px;
-  width:25%;
-  border-radius: 10px;
-  outline: none;
-  background-color:#fff;
-  color: #000;
-  box-shadow: 1px 1px 1px 1px #000;
-  border: none
->>>>>>> 4b7606a6eb5f96b418e436212ebf6950bbbf9fba
-}
-.search .elementsContainer{
-  width: 100%;
-  height: 100%;
-  vertical-align: middle;
-}
-.search .form-control{
-  
-  height: 90%;
-  width: 100%;
-  padding: 0px 5px;
-  border-radius: 50px;
-  font-size: 15px;
-  color: darkblue;
-  font-weight: 500;
-  border: none;
-}
-.search .form-control:focus{
-  outline: none;
-}
-.search .fas fa-search{
-  font-size: 25;
-  color: #000;
-}
-
-.project{
-  background-color: black;
-}
-section.project .card-wrapper{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
-  margin-top: 3rem;
-}
-section.project .card-wrapper .card{
-  background: aqua;
-  padding: 3rem 2rem;
-  text-align: center;
-  transition: all .5s ease;
-  border-radius: 0.25rem;
-}
-section.project .card-wrapper .card:hover{
-  background-color: #fff;
-  box-shadow: 0 0 5px aqua, 0 0 8px #fff;
-}
-section.project .card-wrapper .card p{
-  font-family: 'Lato', sans-serif;
-  color: gray;
-  line-height: 1.6;
-  margin-top: 0.5rem;
-}
-
-/*footer*/
-
 .footer_base{
   background-color: #000;
   display: flex;
@@ -436,3 +313,124 @@ section.project .card-wrapper .card p{
     margin: -20px 0 30px 0;
   }
 }
+
+
+
+/*Content*/
+.hello{
+  color: #12baed;
+  margin-bottom: 20px !important;
+  font-size: 45px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 20px #12baed;
+  font-family: 'Righteous', cursive;
+}
+
+content .des{
+  color:white;
+}
+
+.content{ 
+  text-align: center;
+  
+}
+.data{
+  font-size: 25px;
+  background-color: #0c0c0c;
+  color:white;
+  overflow: hidden;
+}
+
+ /*Search box*/
+ .search{
+  margin:auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  position: relative;
+  width: 500px;
+  height: 50px;
+  border: 4px solid #000;
+  padding: 0px 10px;
+  border-radius: 50px;
+
+/* Button*/
+.btn{
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 25%;
+  height: 3rem;
+  box-shadow: 1px 1px 3px 3px #000;
+  border-radius: 5px;
+  transition: 0.6s ease;
+}
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:#ed1250;
+}
+
+
+.search-field{
+  height: 40px;
+  width:25%;
+  border-radius: 10px;
+  outline: none;
+  background-color:#fff;
+  color: #000;
+  box-shadow: 1px 1px 1px 1px #000;
+  border: none;
+}
+.search .elementsContainer{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.search .form-control{
+  
+  height: 90%;
+  width: 100%;
+  padding: 0px 5px;
+  border-radius: 50px;
+  font-size: 15px;
+  color: darkblue;
+  font-weight: 500;
+  border: none;
+}
+.search .form-control:focus{
+  outline: none;
+}
+.search .fas fa-search{
+  font-size: 25;
+  color: #000;
+}
+
+.project{
+  background-color: black;
+}
+section.project .card-wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  margin-top: 3rem;
+}
+section.project .card-wrapper .card{
+  background: aqua;
+  padding: 3rem 2rem;
+  text-align: center;
+  transition: all .5s ease;
+  border-radius: 0.25rem;
+}
+section.project .card-wrapper .card:hover{
+  background-color: #fff;
+  box-shadow: 0 0 5px aqua, 0 0 8px #fff;
+}
+section.project .card-wrapper .card p{
+  font-family: 'Lato', sans-serif;
+  color: gray;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+/*footer*/
+
