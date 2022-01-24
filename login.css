@@ -1,0 +1,123 @@
+ .u-section-1 {
+  background-image: url("image/pexels-zen-chung-5538000.jpg");
+  background-position: 50% 50%;
+  min-height: 879px;
+}
+
+.u-section-1 .u-shape-1 {
+  height: 98px;
+  margin-top: -299px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-group-1 {
+  width: 709px;
+  min-height: 394px;
+  background-image: none;
+  height: auto;
+  margin: 482px calc(((100% - 1140px) / 2) + 192px) 60px auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 50px 30px 30px;
+}
+
+.u-section-1 .u-text-1 {
+  text-transform: none;
+  font-weight: 700;
+  font-size: 1.875rem;
+  margin: 13px auto 0 200px;
+}
+
+.u-section-1 .u-form-1 {
+  height: 259px;
+  margin: 27px 0 0;
+}
+
+.u-section-1 .u-form-group-1 {
+  margin-left: auto;
+}
+
+.u-section-1 .u-form-group-2 {
+  margin-left: auto;
+}
+
+.u-section-1 .u-form-group-3 {
+  margin-left: auto;
+}
+
+.u-section-1 .u-btn-1 {
+  margin-left: auto;
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.125rem;
+  letter-spacing: 2px;
+  background-image: none;
+  text-transform: none;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 725px;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-top: 485px;
+    margin-right: calc(((100% - 940px) / 2) + 192px);
+    margin-bottom: 47px;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 555px;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-right: calc(((100% - 720px) / 2) + 11px);
+    margin-bottom: 0;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 416px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 540px;
+    margin-right: calc(((100% - 540px) / 2));
+    margin-left: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 160px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 262px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 340px;
+    margin-right: calc(((100% - 340px) / 2));
+    margin-left: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+    margin-left: 98px;
+  }
+}
