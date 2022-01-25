@@ -134,13 +134,13 @@ ul li a:hover{
 
 /*========Header========*/
 .domain {
-  width: 100%;
+  /*width: 100%;*/
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: rgba(0, 0, 0, 0.3);
-  padding:20px 20px;
+  
+  /*padding:20px 20px;*/
   
  
  
@@ -151,17 +151,18 @@ ul li a:hover{
   text-align: center;
   font-weight: 700;
   line-height: 56px;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-size: 79px;
+  /*font-family: "Raleway", sans-serif;*/
+  font-size: 6rem;
   color:aqua;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.5);
   text-shadow:7px 8.7px 12.0px #29dad1 ;
 }
 
 .domain p {
   color: #eee;
   margin-bottom: 30px;
-  font-size: 27px;
+  font-size: 50px;
   text-align: center;
  
 }
@@ -176,6 +177,7 @@ ul li a:hover{
   transition: 0.5s;
   border: 2px solid #cc1616;
   background: #cc1616;
+  text-decoration: none;
   color: #fff;
  text-align: center;
 }
@@ -381,7 +383,7 @@ ul li a:hover{
   font-size: 45px;
   letter-spacing: 2px;
   text-shadow: 0 0 20px #12baed;
-  font-family: 'Righteous', cursive;
+  font-family: "Raleway", sans-serif;
 }
 
 .content{ 
@@ -392,9 +394,15 @@ ul li a:hover{
   font-size: 25px;
   color:#000;
   overflow: hidden;
+  box-shadow: 5px 5px 10px #ccc, 5px 5px 9px #000;
 }
 
  /*========Search box========*/
+.find{
+  /*background: url(../chhatralay/image/13.jfif);*/
+  box-shadow: 5px -9px 10px #ccc, 5px -5px 9px #000 inset;
+}
+
  .search{
   margin:auto;
   margin-top: 4%;
@@ -433,9 +441,7 @@ ul li a:hover{
 }
 /*===========Card=========*/
 
-section.project{
-  box-shadow: 5px 5px 7px #ccc, 5px 5px 9px #000;
-}
+
 section.project .card-wrapper{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
