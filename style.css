@@ -388,6 +388,7 @@ ul li a:hover{
   color:#000;
   overflow: hidden;
   box-shadow: 3px 5px 10px #000, 3px 5px 9px #000;
+  height: 400px;
 }
 
  /*========Search box========*/
