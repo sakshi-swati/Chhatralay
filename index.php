@@ -67,8 +67,8 @@
             <li><a href="#">Services</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">ContactUs</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="register.html">Register</a></li>
+            <li><a href="login.php">Login</a></li>
+            <li><a href="register.php">Register</a></li>
           </ul>
 
         </div>
@@ -92,11 +92,11 @@
   <div class="content">
     <div class="data">
 
-      <!-- <h2 class="hello">Hola!</h2>
+       <h2 class="hello">Hola!</h2> 
       <pre style="color:#000;">Chhatralay's hostel search allows you to search hostels in just few clicks.We provide you the best
          in afforable price and desired location. </pre>
       <div class="icon"><i class="fa fa-heart" aria-hidden="true"></i></div>
-      <div>All according to your pocket!!!</div><br> -->
+      <div>All according to your pocket!!!</div><br>
     </div>
 
     <body class="u-body">
